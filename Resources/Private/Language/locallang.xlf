@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-06" product-name="nj_itaros">
+		<header/>
+		<body>
+			<trans-unit id="general.form.email" xml:space="preserve">
+				<source>Email address</source>
+			</trans-unit>
+			<trans-unit id="general.form.firstName" xml:space="preserve">
+				<source>First name</source>
+			</trans-unit>
+			<trans-unit id="general.form.lastName" xml:space="preserve">
+				<source>Last name</source>
+			</trans-unit>
+			<trans-unit id="general.form.submit.sendApplication" xml:space="preserve">
+				<source>Send application</source>
+			</trans-unit>
+			<trans-unit id="general.order.annotation" xml:space="preserve">
+				<source>30 days gratis</source>
+			</trans-unit>
+			<trans-unit id="general.order.testaccount" xml:space="preserve">
+				<source>Order your test account now!</source>
+			</trans-unit>
+			<trans-unit id="general.readmore" xml:space="preserve">
+				<source>more Information</source>
+			</trans-unit>
+			<trans-unit id="general.toOverview.product" xml:space="preserve">
+				<source>TODO / Overview product suite</source>
+			</trans-unit>
+			<trans-unit id="general.toOverview.solution" xml:space="preserve">
+				<source>TODO / Overview solutions</source>
+			</trans-unit>
+			<trans-unit id="model.product.title" xml:space="preserve">
+				<source>Products</source>
+			</trans-unit>
+			<trans-unit id="model.solution.title" xml:space="preserve">
+				<source>Solutions</source>
+			</trans-unit>
+			<trans-unit id="model.productSolutions.features.intro1" xml:space="preserve">
+				<source>Overview of the most important features of</source>
+			</trans-unit>
+			<trans-unit id="model.productSolutions.features.intro2" xml:space="preserve">
+				<source>Overview of the most important features of</source>
+			</trans-unit>
+			<trans-unit id="model.menu.teaser.product.introduction.p1" xml:space="preserve">
+				<source>TODO / introduction part 1</source>
+			</trans-unit>
+			<trans-unit id="model.menu.teaser.product.introduction.p2" xml:space="preserve">
+				<source>TODO / introduction part 2</source>
+			</trans-unit>
+			<trans-unit id="model.menu.teaser.product.order.intro" xml:space="preserve">
+				<source>TODO / teaser product order intro</source>
+			</trans-unit>
+        </body>
+	</file>
+</xliff>

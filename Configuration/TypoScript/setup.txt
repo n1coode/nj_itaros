@@ -1,0 +1,243 @@
+# Plugin configuration
+plugin.tx_njitaros {
+ 	settings {
+ 		general {
+			file {
+				css = {$plugin.tx_njitaros.settings.general.file.css}
+			}
+			include {
+				css = {$plugin.tx_njitaros.settings.general.include.css}
+				jQuery = {$plugin.tx_njitaros.settings.general.include.jQuery}
+			}
+			menu {
+				show = {$plugin.tx_njitaros.settings.general.menu.show}
+			}
+		}
+ 		model {
+			contact {
+				pid {
+					form = {$plugin.tx_njitaros.settings.model.contact.pid.form}
+				}
+			}
+			feature {
+				pid {
+					archive = {$plugin.tx_njitaros.settings.model.feature.pid.archive}
+					list = {$plugin.tx_njitaros.settings.model.feature.pid.list}
+					singleView = {$plugin.tx_njitaros.settings.model.feature.pid.singleView}
+				}
+			}
+			news {
+				pid {
+					index = {$plugin.tx_njitaros.settings.model.news.pid.index}
+					focus = {$plugin.tx_njitaros.settings.model.news.pid.focus}
+					list = {$plugin.tx_njitaros.settings.model.news.pid.list}
+				}
+				list {
+					category = {$plugin.tx_njitaros.settings.model.news.list.category}
+				}
+			}
+			product {
+				pid {
+					index = {$plugin.tx_njitaros.settings.model.product.pid.index}
+					focus = {$plugin.tx_njitaros.settings.model.product.pid.focus}
+				}
+			}
+			solution {
+				pid {
+					index = {$plugin.tx_njitaros.settings.model.solution.pid.index}
+					focus = {$plugin.tx_njitaros.settings.model.solution.pid.focus}
+				}
+			}
+		}
+	}
+	persistence {
+		storagePid = {$plugin.tx_njitaros.persistence.storagePid}
+		classes {
+		}
+	}
+
+	view {
+		templateRootPath = {$plugin.tx_njitaros.view.templateRootPath}
+		partialRootPath = {$plugin.tx_njitaros.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_njitaros.view.layoutRootPath}
+	}	
+	mvc {
+		callDefaultActionIfActionCantBeResolved = 1
+	}
+}
+
+plugin.tx_njitaros {
+	parseFunc < lib.parseFunc_RTE
+}
+
+config.tx_extbase {
+	persistence {
+		classes {
+		}
+	}
+}
+
+
+#
+# AJAX Page Prototype
+# typeNum: nj_itaros -> handykeyboard -> 651482767
+#
+lib.AJAXPrototype= PAGE
+lib.AJAXPrototype {
+	typeNum = 651482767
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = 0
+		admPanel = 0
+		debug = 0
+		no_cache = 1
+		additionalHeaders = Content-type:application/json
+	}
+}
+ 
+ 
+#
+# my AjaxType 
+#
+AJAX_njitaros < lib.AJAXPrototype
+AJAX_njitaros {
+	typeNum = 651482767
+	 
+	10 = USER
+	10 {
+		userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+		vendorName = N1coode
+		extensionName = NjItaros
+		pluginName = Itaros
+		settings =< plugin.tx_njitaros.settings
+    	persistence =< plugin.tx_njitaros.persistence
+    	view =< plugin.tx_njitaros.view
+	}
+}
+
+
+lib.tx_njitaros.responsiveImage = IMAGE
+lib.tx_njitaros.responsiveImage {
+    file.import.current = 1
+    file.treatIdAsReference = 1
+	file.width = 1240
+	altText.dataWrap = {field:altText}
+    titleText.dataWrap = {field:titleText}
+	sourceCollection {
+		large {
+			width = 1240
+			maxW < .width
+			srcsetCandidate = 1024w
+		}
+		medium {
+			width = 1024
+			maxW < .width
+			srcsetCandidate = 768w
+		}
+		small {
+			width = 768
+			maxW < .width
+			srcsetCandidate = 420w
+		}
+
+		tiny {
+			width = 420
+			maxW < .width
+			srcsetCandidate = 320w
+		}
+	}
+    layoutKey = srcset
+    layout < tt_content.image.20.1.layout
+}
+
+
+
+
+lib.tx_njitaros.menu = USER
+lib.tx_njitaros.menu {
+    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+    extensionName = NjItaros
+    pluginName = Pi1
+    vendorName = N1coode
+    controller = Menu
+    settings =< plugin.tx_njitaros.settings
+    persistence =< plugin.tx_njitaros.persistence
+    view =< plugin.tx_njitaros.view
+}
+
+
+lib.tx_njitaros.menu_teaser < lib.tx_njitaros.menu
+lib.tx_njitaros.menu_teaser {
+	action = teaser
+	switchableControllerActions {
+        Menu {
+            1 = teaser
+        }
+    }
+}
+
+lib.tx_njitaros.menu_list < lib.tx_njitaros.menu
+lib.tx_njitaros.menu_list {
+	action = list
+	switchableControllerActions {
+        Menu {
+            1 = list
+        }
+    }
+}
+lib.tx_njitaros.menu_list_products < lib.tx_njitaros.menu_list
+lib.tx_njitaros.menu_list_solutions < lib.tx_njitaros.menu_list
+
+lib.tx_njitaros.menu_list_products.settings.general.menu.show = products
+lib.tx_njitaros.menu_list_solutions.settings.general.menu.show = solutions
+
+
+tt_content.njitaros_teaser = FLUIDTEMPLATE
+tt_content.njitaros_teaser {
+	file = EXT:nj_itaros/Resources/Private/Templates/CustomContentElements/Teaser.html
+	variables {
+		previewImage = FILES
+		previewImage {
+			references {
+				table = tt_content
+				fieldName = image
+			}
+			renderObj = IMAGE
+			renderObj {
+				file.import.data = file:current:uid
+				file.treatIdAsReference = 1
+			}
+		}
+	}
+}
+
+lib.tx_njitaros.math = TEXT
+lib.tx_njitaros.math {
+	current = 1
+	prioriCalc = 1
+}
+
+
+lib.tx_njitaros.link.index.products = COA
+lib.tx_njitaros.link.index.products {
+	10 = TEXT
+	10.value = {$plugin.tx_njitaros.settings.model.product.pid.index}
+}
+
+lib.tx_njitaros.link.index.solutions = COA
+lib.tx_njitaros.link.index.solutions {
+	10 = TEXT
+	10.value = {$plugin.tx_njitaros.settings.model.solution.pid.index}
+}
+
+lib.tx_njitaros.link.focus.products = COA
+lib.tx_njitaros.link.focus.products {
+	10 = TEXT
+	10.value = {$plugin.tx_njitaros.settings.model.product.pid.focus}
+}
+
+lib.tx_njitaros.link.focus.solutions = COA
+lib.tx_njitaros.link.focus.solutions {
+	10 = TEXT
+	10.value = {$plugin.tx_njitaros.settings.model.solution.pid.focus}
+}

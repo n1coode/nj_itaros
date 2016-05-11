@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallang>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields for the extension 'nj_itaros'.</description>
+    </meta> 
+    <data type="array"> 
+        <languageKey index="default" type="array">
+            <label index="general.tab.additionalInformation">Additional information</label>
+            <label index="general.tab.categorization">Categorization</label>
+            <label index="general.tab.content">Content</label>
+            <label index="general.tab.description">Description</label>
+            <label index="general.tab.details">Details</label>
+            <label index="general.tab.generalSettings">General settings</label>
+            <label index="general.tab.generalInformation">General information</label>
+            <label index="general.tab.image">Image</label>
+            <label index="general.description">Description:</label>
+            <label index="general.city">City:</label>
+            <label index="general.country">Country:</label>
+            <label index="general.icon">Icon:</label>
+            <label index="general.image">Image:</label>
+            <label index="general.select.noSpecification">No specification</label>
+            <label index="general.title">Title:</label>
+            <label index="general.website">Website:</label>
+			<label index="model.feature">Feature</label>
+			<label index="model.industry">Industry</label>
+			<label index="model.module">Module</label>
+			<label index="model.product">Product</label>
+			<label index="model.solution">Business solution</label>
+			<label index="model.product.feature">Feature:</label>
+			<label index="pages.pageType">Page type:</label>
+            <label index="pages.pageType.option.0">Standard</label>
+			<label index="pages.pageType.option.1">Product</label>
+			<label index="pages.pageType.option.2">Industry</label>
+			<label index="pages.sysNavTitle">Navigation title (system):</label>
+			<label index="pages.teaserText">Teaser text:</label>
+            <label index="tx_njinternship_domain_model_direction">Functional direction</label>
+            <label index="tx_njinternship_domain_model_internship">Internship</label>
+            <label index="tx_njinternship_domain_model_internship.directAppointment">Direct Appointment:</label>
+            <label index="tx_njinternship_domain_model_internship.direction">Functional direction:</label>
+            <label index="tx_njinternship_domain_model_internship.duration">Duration (specified in months):</label>
+            <label index="tx_njinternship_domain_model_internship.fileName">File name (optional):</label>
+            <label index="tx_njinternship_domain_model_internship.payment">Payment:</label>
+            <label index="tx_njinternship_domain_model_internship.referenceNumber">Reference number:</label>
+            <label index="tx_njinternship_domain_model_internship.remuneration">Remuneration:</label>
+            <label index="tx_njinternship_domain_model_testimonial">Testimonial</label>
+            <label index="tx_njinternship_domain_model_testimonial.author">Author:</label>
+            <label index="tx_njinternship_domain_model_testimonial.firm">Firm:</label>
+            <label index="tx_njinternship_domain_model_testimonial.testimonial">Testimonial:</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="general.tab.additionalInformation">Zusätzliche Angaben</label>
+            <label index="general.tab.categorization">Kategorisierung</label>
+            <label index="general.tab.content">Inhalt</label>
+            <label index="general.tab.description">Beschreibung</label>
+            <label index="general.tab.details">Details</label>
+            <label index="general.tab.generalInformation">Allgemeine Informationen</label>
+            <label index="general.tab.generalSettings">Generelle Einstellungen</label>
+            <label index="general.tab.image">Bilddatei</label>
+            <label index="general.description">Beschreibung:</label>
+            <label index="general.city">Stadt:</label>
+            <label index="general.country">Land:</label>
+            <label index="general.icon">Icon:</label>
+            <label index="general.image">Bild:</label>
+            <label index="general.title">Titel:</label>
+            <label index="general.select.noSpecification">Keine Angabe</label>
+            <label index="general.website">Internetseite:</label>
+			<label index="model.feature">Feature</label>
+            <label index="model.industry">Branche</label>
+			<label index="model.module">Modul</label>
+			<label index="model.product">Produkt</label>
+			<label index="model.solution">Geschäftslösung</label>
+			<label index="model.product.feature">Feature:</label>
+            <label index="pages.pageType">Seiten-Typ:</label>
+			<label index="pages.pageType.option.0">Standard</label>
+			<label index="pages.pageType.option.1">Produkt</label>
+			<label index="pages.pageType.option.2">Branche</label>
+			<label index="pages.sysNavTitle">Navigations-Titel (System):</label>
+			<label index="pages.teaserText">Teaser-Text:</label>
+            <label index="tx_njinternship_domain_model_internship">Praktikum</label>
+            <label index="tx_njinternship_domain_model_internship.directAppointment">Sofort-Anstellung:</label>
+            <label index="tx_njinternship_domain_model_internship.direction">Fachrichtung:</label>
+            <label index="tx_njinternship_domain_model_internship.duration">Dauer (in Monate):</label>
+            <label index="tx_njinternship_domain_model_internship.fileName">Dateiname (optional):</label>
+            <label index="tx_njinternship_domain_model_internship.payment">Bezahlung:</label>
+            <label index="tx_njinternship_domain_model_internship.referenceNumber">Referenz-Nummer:</label>
+            <label index="tx_njinternship_domain_model_internship.remuneration">Vergütung:</label>
+            <label index="tx_njinternship_domain_model_registration">Registrierung</label>
+            <label index="tx_njinternship_domain_model_registration.attachment1">Anhang 1:</label>
+            <label index="tx_njinternship_domain_model_registration.attachment2">Anhang 2:</label>
+            <label index="tx_njinternship_domain_model_registration.birthday">Geburtstag:</label>
+            <label index="tx_njinternship_domain_model_registration.directions">Gewünschte Fachrichtungen:</label>
+            <label index="tx_njinternship_domain_model_registration.email">E-Mail-Adresse:</label>
+            <label index="tx_njinternship_domain_model_registration.files">Angefügte Dateien:</label>
+            <label index="tx_njinternship_domain_model_registration.firstName">Vorname:</label>
+            <label index="tx_njinternship_domain_model_registration.internshipFrom">Von</label>
+            <label index="tx_njinternship_domain_model_registration.internships">Interessante Praktikumsangebote:</label>
+            <label index="tx_njinternship_domain_model_registration.internshipTo">Bis:</label>
+            <label index="tx_njinternship_domain_model_registration.lastName">Nachname:</label>m
+            <label index="tx_njinternship_domain_model_registration.location">Wohnort:</label>
+            <label index="tx_njinternship_domain_model_registration.message">Nachricht:</label>
+            <label index="tx_njinternship_domain_model_registration.mobile">Handynummer:</label>
+            <label index="tx_njinternship_domain_model_registration.street">Straßenname und Hausnummer:</label>
+            <label index="tx_njinternship_domain_model_registration.telephone">Telofonnummer:</label>
+            <label index="tx_njinternship_domain_model_registration.zipCode">Postleitzahl:</label>
+            <label index="tx_njinternship_domain_model_testimonial">Empfehlung</label>
+            <label index="tx_njinternship_domain_model_testimonial.author">Autor:</label>
+            <label index="tx_njinternship_domain_model_testimonial.firm">Firma:</label>
+            <label index="tx_njinternship_domain_model_testimonial.testimonial">Empfehlung:</label>
+        </languageKey>
+    </data>
+</T3locallang>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-06" product-name="nj_itaros">
+		<header/>
+		<body>
+			<trans-unit id="flexform.controller.carousel.header" xml:space="preserve">
+				<source>Carousel &#171; Header &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.corporation.list" xml:space="preserve">
+				<source>Corporation &#171; List &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.corporation.tiny" xml:space="preserve">
+				<source>Corporation &#171; Tiny &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.form.application" xml:space="preserve">
+				<source>Form &#171; Application &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.form.contact" xml:space="preserve">
+				<source>Form &#171; Contact &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.form.infomail" xml:space="preserve">
+				<source>Form &#171; Infomail &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.form.support" xml:space="preserve">
+				<source>Form &#171; Support &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.feature.highlight" xml:space="preserve">
+				<source>Feature &#171; Highlight &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.menu.list" xml:space="preserve">
+				<source>Menu &#171; List &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.menu.teaser" xml:space="preserve">
+				<source>Menu &#171; Teaser &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.menu.tiny" xml:space="preserve">
+				<source>Menu &#171; Tiny &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.news.focus" xml:space="preserve">
+				<source>News &#171; Focus &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.news.list" xml:space="preserve">
+				<source>News &#171; List &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.product.focus" xml:space="preserve">
+				<source>Product &#171; Focus &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexform.controller.product.header" xml:space="preserve">
+				<target>Product &#171; Header &#187;</target>
+			</trans-unit>
+			<trans-unit id="flexform.controller.product.list" xml:space="preserve">
+				<source>Product &#171; List &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexforms.tab.controller.news" xml:space="preserve">
+				<source>Controller &#171; News &#187;</source>
+			</trans-unit>
+			<trans-unit id="flexforms.tab.controller.product" xml:space="preserve">
+				<source>Controller &#171; Product &#187;</source>
+			</trans-unit>
+			<trans-unit id="label.general.feature" xml:space="preserve">
+				<source>Feature</source>
+			</trans-unit>
+			<trans-unit id="label.general.features" xml:space="preserve">
+				<source>Features</source>
+			</trans-unit>
+			<trans-unit id="label.general.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="label.general.teaserImage" xml:space="preserve">
+				<source>Teaser image</source>
+			</trans-unit>
+			<trans-unit id="label.general.teaserText" xml:space="preserve">
+				<source>Teaser text</source>
+			</trans-unit>
+			<trans-unit id="label.general.titleDisplay" xml:space="preserve">
+				<source>Titel (display)</source>
+			</trans-unit>
+			<trans-unit id="label.model.corporation.displayAs" xml:space="preserve">
+				<source>Display as ...</source>
+			</trans-unit>
+			<trans-unit id="label.model.corporation.isCustomer" xml:space="preserve">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="label.model.corporation.isPartner" xml:space="preserve">
+				<source>Partner</source>
+			</trans-unit>
+			<trans-unit id="label.model.corporation.svg" xml:space="preserve">
+				<source>Scalable Vector Graphic</source>
+			</trans-unit>
+			<trans-unit id="label.model.news.relatedFeatures" xml:space="preserve">
+				<source>Related features</source>
+			</trans-unit>
+			<trans-unit id="label.model.news.relatedModules" xml:space="preserve">
+				<source>Related modules</source>
+			</trans-unit>
+			<trans-unit id="label.model.news.relatedProducts" xml:space="preserve">
+				<source>Related products</source>
+			</trans-unit>
+			<trans-unit id="label.model.news.relatedSolutions" xml:space="preserve">
+				<source>Related solutions</source>
+			</trans-unit>
+			<trans-unit id="label.model.product.productName" xml:space="preserve">
+				<source>Product name</source>
+			</trans-unit>
+			<trans-unit id="model.application" xml:space="preserve">
+				<source>Application</source>
+			</trans-unit>
+			<trans-unit id="model.corporation" xml:space="preserve">
+				<source>Partners and customers</source>
+			</trans-unit>
+			<trans-unit id="model.feature" xml:space="preserve">
+				<source>Feature</source>
+			</trans-unit>
+			<trans-unit id="model.industry" xml:space="preserve">
+				<source>Industry</source>
+			</trans-unit>
+			<trans-unit id="model.module" xml:space="preserve">
+				<source>Module</source>
+			</trans-unit>
+			<trans-unit id="model.news" xml:space="preserve">
+				<source>News</source>
+			</trans-unit>
+			<trans-unit id="model.newscategory" xml:space="preserve">
+				<source>News category</source>
+			</trans-unit>
+			<trans-unit id="model.product" xml:space="preserve">
+				<source>Product</source>
+			</trans-unit>
+			<trans-unit id="model.sheet" xml:space="preserve">
+				<source>Sheet</source>
+			</trans-unit>
+			<trans-unit id="model.solution" xml:space="preserve">
+				<source>Business solution</source>		
+			</trans-unit>
+			
+			<trans-unit id="pages.pageType" xml:space="preserve">
+				<source>Seitentyp</source>
+			</trans-unit>
+			<trans-unit id="pages.pageType.option.0" xml:space="preserve">
+				<source>Standard</source>
+			</trans-unit>
+			<trans-unit id="pages.pageType.option.1" xml:space="preserve">
+				<source>Produkt</source>
+			</trans-unit>
+			<trans-unit id="pages.pageType.option.2" xml:space="preserve">
+				<source>Branchenlösung</source>
+			</trans-unit>
+			<trans-unit id="pages.sysNavTitle" xml:space="preserve">
+				<source>Navigations-Titel (System)</source>
+			</trans-unit>
+			<trans-unit id="pages.teaserText" xml:space="preserve">
+				<source>Teaser-Text</source>
+			</trans-unit>
+			
+			<trans-unit id="plugin.title" xml:space="preserve">
+				<source>njs I-taros - Scope of information</source>
+			</trans-unit>
+			
+			<trans-unit id="tab.general.relations" xml:space="preserve">
+				<source>Relations</source>
+			</trans-unit>
+			<trans-unit id="tsce.model.contact.pid.form" xml:space="preserve">
+				<target>Page-ID Contact &#8226; Form</target>
+			</trans-unit>
+			<trans-unit id="tsce.general.menu.show" xml:space="preserve">
+				<source>Menu selection &#8226; all, products &amp; solutions</source>
+			</trans-unit>
+			<trans-unit id="tsce.model.news.list.category" xml:space="preserve">
+				<source>News &#8226; list &#8226; ID category</source>	
+			</trans-unit>
+			<trans-unit id="tsce.model.news.pid.index" xml:space="preserve">
+				<source>Page-ID News &#8226; Index</source>	
+			</trans-unit>
+			<trans-unit id="tsce.model.news.pid.focus" xml:space="preserve">
+				<source>Page-ID News &#8226; Focus</source>	
+			</trans-unit>
+			<trans-unit id="tsce.model.news.pid.list" xml:space="preserve">
+				<source>Page-ID News &#8226; List</source>	
+			</trans-unit>
+			<trans-unit id="tsce.model.product.pid.focus" xml:space="preserve">
+				<source>Page-ID Product &#8226; Focus</source>
+			</trans-unit>
+			<trans-unit id="tsce.model.product.pid.index" xml:space="preserve">
+				<source>Page-ID Product &#8226; Index</source>	
+			</trans-unit>
+			<trans-unit id="tsce.model.product.pid.list" xml:space="preserve">
+				<source>Page-ID Product &#8226; List</source>
+			</trans-unit>
+			<trans-unit id="tsce.model.solution.pid.focus" xml:space="preserve">
+				<target>Page-ID Solution &#8226; Focus</target>
+			</trans-unit>
+			<trans-unit id="tsce.model.solution.pid.index" xml:space="preserve">
+				<target>Page-ID Solution &#8226; Index</target>
+			</trans-unit>
+			<trans-unit id="tsce.persistence.storagePid" xml:space="preserve">
+				<source>Page(s) with the records</source>	
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

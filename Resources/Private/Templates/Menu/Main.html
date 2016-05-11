@@ -1,0 +1,69 @@
+<div id="dropdownProducts" class="dropdown products">
+	<div class="n1grid group">
+		<div class="n1col gs1of3">
+			<div class="introduction">
+				<p>Die i-taros Produktsuite bietet eine Vielzahl schon erstellter Anwendungen, die Sie als Bausteine für Ihre individuelle L&ouml;sung beliebig kombinieren k&ouml;nnen.</p> 
+				<p>Die Anwendungen lassen sich in der Standardversion nutzen oder auch spezifisch entsprechend Ihren Anforderungen anpassen und erweitern.</p>
+			</div>
+			<div class="overview"><a href="?id=4"><i class="fa fa-angle-double-right"></i><f:translate key="{ext.langFile}overview" /></a></div>
+		</div>
+		<div class="n1col gs1of3">
+			<ul class="clearfix">
+				<f:for each="{products}" as="product" iteration="productIterator">
+					<li id="n1navigationProducts_item_{product.uid}"><f:link.action pageUid="{settings.model.product.pid.focus}" controller="Product" action="focus" arguments="{product:'{product}'}">{product.title}</f:link.action></li>
+				</f:for>
+			</ul>
+		</div>
+		<div class="n1col gs1of3">
+			<div class="close"><i class="fa fa-close"></i></div>
+			<div class="order">
+				<p>Nutzen Sie noch heute die Vorteile unserer i-taros Produktreihe.</p>
+				<div class="button">Jetzt Test-Account anfordern!</div>
+				<p>* 30 Tage kostenlos</p>
+			</div>
+			<div class="preview">
+				<f:for each="{products}" as="product" iteration="productIterator">
+					<div id="previev_products_item_{product.uid}" class="item">
+						<f:cObject typoscriptObjectPath="lib.tx_njitaros.responsiveImage" data="{uid:'{product.teaserImage.uid}',altText:'Produktseite {product.title} aufrufen',titleText:'Produktseite {product.title} aufrufen'}" currentValueKey="uid" />
+					</div>
+					
+				</f:for>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="dropdownSolutions" class="dropdown solutions">
+	<div class="n1grid group">
+		<div class="n1col gs1of3">
+			<div class="introduction">
+				<p>Die i-taros Produktsuite bietet eine Vielzahl schon erstellter Anwendungen, die Sie als Bausteine für Ihre individuelle L&ouml;sung beliebig kombinieren k&ouml;nnen.</p> 
+				<p>Die Anwendungen lassen sich in der Standardversion nutzen oder auch spezifisch entsprechend Ihren Anforderungen anpassen und erweitern.</p>
+			</div>
+			<div class="overview"><a href="?id=4"><i class="fa fa-angle-double-right"></i><f:translate key="{ext.langFile}overview" /></a></div>
+		</div>
+		<div class="n1col gs1of3">
+			<ul class="clearfix">
+				<f:for each="{products}" as="product" iteration="productIterator">
+					<li id="n1navigationProducts_item_{product.uid}"><f:link.action pageUid="{settings.model.product.pid.focus}" controller="Product" action="focus" arguments="{product:'{product}'}">{product.title}</f:link.action></li>
+				</f:for>
+			</ul>
+		</div>
+		<div class="n1col gs1of3">
+			<div class="close"><i class="fa fa-close"></i></div>
+			<div class="order">
+				<p>Nutzen Sie noch heute die Vorteile unserer i-taros Produktreihe.</p>
+				<div class="button">Jetzt Test-Account anfordern!</div>
+				<p>* 30 Tage kostenlos</p>
+			</div>
+			<div class="preview">
+				<f:for each="{products}" as="product" iteration="productIterator">
+					<div id="previev_products_item_{product.uid}" class="item">
+						<f:cObject typoscriptObjectPath="lib.tx_njitaros.responsiveImage" data="{uid:'{product.teaserImage.uid}',altText:'Produktseite {product.title} aufrufen',titleText:'Produktseite {product.title} aufrufen'}" currentValueKey="uid" />
+					</div>
+					
+				</f:for>
+			</div>
+		</div>
+	</div>
+</div>
